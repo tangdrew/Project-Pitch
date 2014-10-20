@@ -21,6 +21,14 @@ h6 {
     font-weight: 700;
 }
 
+.yellow_font{
+	color: #ffed70;
+}
+
+.yellow_background{
+	background-color: #ffed70;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -39,7 +47,6 @@ h6 {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-	color: #ffed70;
 }
 
 .intro-message > h1 {
