@@ -81,6 +81,10 @@ h6 {
     }
 }
 
+.box_textshadow {
+     text-shadow: 2px 2px 0px #FF0000; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
