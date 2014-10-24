@@ -8,3 +8,7 @@ function show(type){
 		document.getElementById('businessForm').style.display = "inline";
 	}
 }
+function callAnotherPage(page){
+	window.location = page;
+	return false;
+}
