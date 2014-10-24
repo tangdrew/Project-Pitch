@@ -20,6 +20,8 @@
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	
+	<script src="js/locus.js"></script>
 
 </head>
 <body>
@@ -56,16 +58,16 @@
     </nav>
 	<div class="container" style="margin-top: 75px">
 		<div class="row" style="text-align: center">
-			<button class="btn btn-warning" style="display: inline-block">Investor</button>
-			<button class="btn btn-info" style="display: inline-block">Business</button>
+			<button class="btn btn-warning" style="display: inline-block" onclick="show('investor')">Investor</button>
+			<button class="btn btn-info" style="display: inline-block" onclick="show('business')">Business</button>
 		</div>
-		<form method="post" name="investorSignUp" style="margin: 50px">
+		<form method="post" name="investorSignUp" id="investorForm" style="margin: 50px">
 			<label>Name</label>
 			<input type="text" class="form-control"></input>
 			<label>Email</label>
 			<input type="text" class="form-control"></input>
 		</form>
-		<form method="post" name="investorSignUp" style="margin: 50px">
+		<form method="post" name="businessSignUp" id="businessForm" style="margin: 50px">
 			<label>Name</label>
 			<input type="text" class="form-control"></input>
 			<label>Email</label>
