@@ -1,13 +1,10 @@
 function show(type){
-	console.log('works');
 	if(type == "investor"){
-		console.log('investor');
 		document.getElementById('businessForm').style.display = "none";
-		document.getElementById('investorForm').style.display = "normal";
+		document.getElementById('investorForm').style.display = "inline";
 	}
 	if(type == "business"){
-		console.log('business');
 		document.getElementById('investorForm').style.display = "none";
-		document.getElementById('businessForm').style.display = "normal";
+		document.getElementById('businessForm').style.display = "inline";
 	}
 }
