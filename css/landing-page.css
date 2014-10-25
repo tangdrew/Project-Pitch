@@ -195,3 +195,11 @@ p.copyright {
 	border-width: 2px;
 	border-color: #f8f8f8;
 }
+
+.image_box{
+	margin: 0px;
+	padding: 0px;
+	border-right-width: 2px;
+	border-right-color: black;
+	border-right-style: solid;
+}
