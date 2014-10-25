@@ -202,4 +202,12 @@ p.copyright {
 	border-right-width: 2px;
 	border-right-color: black;
 	border-right-style: solid;
+	height: auto;
+	width: 20%;
+}
+
+.info_box{
+	margin: 0px;
+	height: auto;
+	width: 80%;
 }
