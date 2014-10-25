@@ -185,3 +185,11 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.listing_box{
+	padding: 10%;
+	width: 80%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #f8f8f8;
+}
