@@ -204,10 +204,12 @@ p.copyright {
 	border-right-style: solid;
 	height: auto;
 	width: 20%;
+	display: inline-block;
 }
 
 .info_box{
 	margin: 0px;
 	height: auto;
 	width: 80%;
+	display: inline-block;
 }
