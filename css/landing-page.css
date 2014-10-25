@@ -210,6 +210,7 @@ p.copyright {
 
 .info_box{
 	margin: 0px;
+	margin-left: 5px;
 	height: auto;
 	width: 75%;
 	display: inline-block;
