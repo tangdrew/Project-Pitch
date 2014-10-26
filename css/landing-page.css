@@ -194,6 +194,10 @@ p.copyright {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #b7b7b7;
+	cursor: pointer;
+}
+.listing_box:hover{
+	background-color: #E2E2E2;
 }
 
 .image_box{
