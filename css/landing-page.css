@@ -39,7 +39,8 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/1871.jpg) no-repeat center center;
+    /*background: url(../img/1871.jpg) no-repeat center center;*/
+	background: url(http://captainkimo.com/wp-content/uploads/2011/07/roosevelt-bridge-stuart-florida-rail-road-track-draw-bridge-sunset.jpg) no-repeat center center;
     background-size: cover;
 }
 
